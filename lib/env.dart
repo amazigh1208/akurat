@@ -1,6 +1,7 @@
 import 'package:envied/envied.dart';
 
-part 'env.g.dart';
+part 'env.g.dart'; //I think there is a problem here
+
 
 @Envied(path: '.env.local')
 abstract class Env {
